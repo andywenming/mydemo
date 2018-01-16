@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>首页</title>
+  <style>
+  .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .swiper-slide img{max-width:100%;}
+</style>
+</head>
+<body>
+<div class="andy-wrap">
+<!-- 轮播图 -->
+  <div class="index-banner">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/banner1.jpg"></div>
+            <div class="swiper-slide"><img src="images/banner1.jpg"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <a class="btn-fabuqq" href="###">发布请求</a>
+  </div>
+  <!-- //轮播图 -->
+  <!-- 搜索框 -->
+  <div class="search-wrap">
+    <div class="search-box clearfix">
+      <div class="search-box-saoma pull-left">
+        <a href="###"><i class="icon-saoma"></i><span class="sr-only">扫一扫</span></a>
+      </div>
+      <div class="search-form pull-left">
+        <form>
+          <input class="search-ipt" type="text" name="search" id="search">
+          <a href="###"><i class="fa fa-camera"></i><span class="sr-only">打开相机</span></a>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- //搜索框 -->
+  <!-- 快速成交 -->
+  <div class="andy-ks">
+    <div class="ks-title"><h3>快速成交</h3></div>
+    <div class="ks-line"></div>
+  </div>
+
+  <div class="andy-nav">
+    <ul class="clearfix">
+      <li class="andy-nav-item">
+        <div>
+          <a href="###"><img src="images/k1.png" alt="求购资源"><span>求购资源</span></a>
+        </div>
+      </li>
+      <li class="andy-nav-item">
+        <div>
+          <a href="###"><img src="images/k2.png" alt="我的发布"><span>我的发布</span></a>
+        </div>
+      </li>
+      <li class="andy-nav-item">
+        <div>
+          <a href="###"><img src="images/k3.png" alt="现货资源"><span>现货资源</span></a>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="andy-gn">
+    <div class="gn-title"><h4>操作简捷  功能实用</h4></div>
+    <div class="gn-line"></div>
+  </div>
+
+  <div class="andy-nav2">
+    <ul class="clearfix">
+      
+        <li>
+          <div>
+            <a class="a1" href="###">随便逛逛</a>
+          </div>
+        </li>
+        <li>
+          <div>
+            <a class="a2" href="###">我的收藏</a>
+          </div>
+        </li>
+        <li>
+          <div>
+            <a class="a3" href="###">推荐资源</a>
+          </div>
+        </li>
+        <li>
+          <div>
+            <a class="a4" href="###">个人中心</a>
+          </div>
+        </li>
+        <li>
+          <div>
+            <a class="a5" href="###">联系客服</a>
+          </div>
+        </li>
+    </ul>
+  </div>
+
+  <div class="andy-menu-fixed">
+    <ul class="clearfix">
+      <li>
+        <div>
+          <a class="a1 active" href="###"><i class="fa fa-home"></i><span>首页</span></a>
+        </div>
+      </li>
+      <li>
+        <div>
+          <a class="a2" href="###">发布需求</a>
+        </div>
+      </li>
+      <li>
+        <div>
+          <a class="a3" href="###"><i class="fa fa-user-circle-o"></i><span>我的</span></a>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+</div>
+
+<script src="js/jquery.min-2.1.4.js"></script>
+<script src="js/swiper.min.js"></script>
+<script>
+  var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        autoplay:2000,
+        autoplayDisableOnInteraction: false
+    });
+</script>
+</body>
+</html>

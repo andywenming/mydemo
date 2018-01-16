@@ -1,0 +1,283 @@
+ul,li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;   
+}
+
+.andy-wrap {
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+}
+
+.index-banner {
+    position: relative;
+}
+
+.btn-fabuqq {
+    position: absolute;
+    bottom: -17px;
+    left: 50%;
+    z-index: 999;
+    display: block;
+    margin-left: -35px;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: #ffea01;
+    color: #111111;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 77px;
+}
+
+.search-wrap {
+    position: fixed;
+    top: 2%;
+    z-index: 999;
+    padding: 0 2%;
+    width: 100%;
+    max-width: 640px;
+}
+
+.search-box {
+    height: 40px;
+}
+
+.search-box-saoma {
+    width: 16%;
+    height: 100%;
+    background-color: rgba(23, 89, 201, 0.6);
+}
+
+.icon-saoma {
+    display: block;
+    margin: 6px auto 0;
+    width: 48%;
+    height: 26px;
+    background: transparent url(../images/saoma.png) 0 0 no-repeat/auto 100%;
+}
+
+.search-form {
+    position: relative;
+    width: 84%;
+    height: 40px;
+    background-color: rgba(166, 193, 255, 0.4);
+}
+
+.search-form>form> a {
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    color: #ff8555;
+    font-size: 24px;
+}
+
+.search-ipt {
+    display: block;
+    margin: 0;
+    padding: 0;
+    padding-left: 32px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    background: transparent url(../images/search-bg.png) 6px 50% no-repeat /auto 22px;
+}
+
+.search-ipt:focus {
+    outline: none;
+    border: none;
+}
+
+.andy-ks {
+    position: relative;
+    width: 100%;
+    height: 54px;
+    margin-top: 46px;
+}
+
+.ks-title {
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    width: 127px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.ks-line {
+    position: absolute;
+    top: 14px;
+    z-index: 1;
+    width: 100%;
+    height: 1px;
+    background-color: #e2e2e2;
+}
+
+.andy-nav {
+}
+
+.andy-nav-item {
+    float: left;
+    width: 33.33%;
+}
+
+.andy-nav-item>div {
+    padding: 0 18%;
+}
+
+.andy-nav-item a {
+    display: block;
+    color: #111111;
+    text-align: center;
+}
+
+.andy-gn {
+    position: relative;
+    margin-top: 30px;
+}
+
+.gn-title {
+    position: relative;
+    z-index: 9;
+    margin: 0 auto;
+    width: 60%;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.gn-line {
+    position: absolute;
+    top: 11px;
+    width: 100%;
+    height: 1px;
+    background-color: #e2e2e2;
+}
+
+.andy-nav2 {
+    margin-top: 30px;
+}
+
+.andy-nav2>ul>li {
+    float: left;
+    width: 20%;
+}
+
+.andy-nav2>ul>li>div {
+    padding: 0 18%;
+}
+
+.andy-nav2>ul>li a {
+    display: block;
+    padding-top: 100%;
+    color: #111111;
+    text-align: center;
+    font-size: 12px;
+}
+
+.andy-nav2>ul>li a.a1 {
+    background: transparent url(../images/nav2-1.png) 50% 0 no-repeat /85% auto;
+}
+
+.andy-nav2>ul>li a.a2 {
+    background: transparent url(../images/nav2-2.png) 50% 0 no-repeat /85% auto;
+}
+
+.andy-nav2>ul>li a.a3 {
+    background: transparent url(../images/nav2-3.png) 50% 0 no-repeat /85% auto;
+}
+
+.andy-nav2>ul>li a.a4 {
+    background: transparent url(../images/nav2-4.png) 50% 0 no-repeat /85% auto;
+}
+
+.andy-nav2>ul>li a.a5 {
+    background: transparent url(../images/nav2-5.png) 50% 0 no-repeat /85% auto;
+}
+
+.andy-menu-fixed {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px 0;
+    width: 100%;
+    height: 90px;
+    border-top: 3px solid #8cad8e;
+    background-color: #fff;
+    z-index: 20181088;
+}
+
+.andy-menu-fixed>ul>li {
+    float: left;
+    width: 33.33%;
+}
+
+.ks-title h3 {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.andy-nav-item a img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 100%;
+}
+
+.andy-menu-fixed>ul>li>div {
+    padding: 0 6%;
+    text-align: center;
+}
+
+.andy-menu-fixed>ul>li a {
+    display: block;
+    color: #b0b0b0;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.andy-menu-fixed>ul>li a.active {
+    color: #279f62;
+}
+
+.andy-menu-fixed>ul>li a i {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    font-size: 30px;
+}
+
+.andy-menu-fixed>ul>li a.a2 {
+    margin-right: auto;
+    margin-left: auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 80px;
+    background-color: #54e25a;
+    color: #131313;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 70px;
+}

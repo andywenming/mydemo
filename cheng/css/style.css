@@ -24,6 +24,7 @@ a:hover{
     width: 100%;
     max-width: 640px;
     min-width: 320px;
+    margin-bottom: 100px;
 }
 
 .index-banner {

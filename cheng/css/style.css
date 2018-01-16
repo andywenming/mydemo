@@ -197,23 +197,23 @@ a:hover{
 }
 
 .andy-nav2>ul>li a.a1 {
-    background: transparent url(../images/nav2-1.png) 50% 0 no-repeat /85% auto;
+    background: transparent url(../images/nav2-1.png) no-repeat 50% 0 /85% auto;
 }
 
 .andy-nav2>ul>li a.a2 {
-    background: transparent url(../images/nav2-2.png) 50% 0 no-repeat /85% auto;
+    background: transparent url(../images/nav2-2.png) no-repeat 50% 0 /85% auto;
 }
 
 .andy-nav2>ul>li a.a3 {
-    background: transparent url(../images/nav2-3.png) 50% 0 no-repeat /85% auto;
+    background: transparent url(../images/nav2-3.png) no-repeat 50% 0 /85% auto;
 }
 
 .andy-nav2>ul>li a.a4 {
-    background: transparent url(../images/nav2-4.png) 50% 0 no-repeat /85% auto;
+    background: transparent url(../images/nav2-4.png) no-repeat 50% 0 /85% auto;
 }
 
 .andy-nav2>ul>li a.a5 {
-    background: transparent url(../images/nav2-5.png) 50% 0 no-repeat /85% auto;
+    background: transparent url(../images/nav2-5.png) no-repeat 50% 0 /85% auto;
 }
 
 .andy-menu-fixed {
